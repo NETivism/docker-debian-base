@@ -1,9 +1,9 @@
-FROM debian:stretch-backports
+FROM debian:buster
 MAINTAINER Jimmy Huang <jimmy@netivism.com.tw>
 
 ### locales
-ENV LANG zh_TW.UTF-8
 ENV LC_CTYPE zh_TW.UTF-8
+ENV LANG zh_TW.UTF-8
 
 RUN \
   apt-get update && \
