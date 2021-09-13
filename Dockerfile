@@ -14,3 +14,6 @@ RUN \
   sed -e 's|^# zh_TW.UTF-8|zh_TW.UTF-8|g' -i /etc/locale.gen && \
   echo "LANG=zh_TW.UTF-8" > /etc/default/locale && \
   locale-gen
+
+RUN \
+  apt-get upgrade -y
