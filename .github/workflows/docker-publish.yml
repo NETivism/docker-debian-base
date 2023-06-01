@@ -43,7 +43,7 @@ jobs:
           images: |
             ${{ github.repository }}
             ghcr.io/${{ github.repository }}
-            ng.netivism.com.tw/${{ github.repository }}
+            rg.netivism.com.tw/${{ github.repository }}
           tags: |
             type=schedule
             type=ref,event=branch
