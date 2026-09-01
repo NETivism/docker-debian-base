@@ -2,7 +2,7 @@ name: Create and publish a Docker image
 
 on:
   push:
-    branches: ['bullseye','buster']
+    branches: ['trixie','bullseye','buster']
   workflow_dispatch:
 
 jobs:

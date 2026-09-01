@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:trixie
 MAINTAINER Jimmy Huang <jimmy@netivism.com.tw>
 
 ### locales
