@@ -6,6 +6,7 @@ ENV LC_CTYPE zh_TW.UTF-8
 ENV LANG zh_TW.UTF-8
 
 RUN \
+  sed -i 's|deb.debian.org|archive.debian.org|g' /etc/apt/sources.list && \
   apt-get update && \
   apt-get install -y locales && \
   apt-get clean && \
